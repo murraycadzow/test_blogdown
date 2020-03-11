@@ -17,8 +17,9 @@ jobs:
       - uses: r-lib/actions/setup-pandoc@v1
       - name: Install rmarkdown
         run: Rscript -e 'install.packages(c("rmarkdown","blogdown"))'
-      - name: Render Book
+      - name: install hugo
         run: Rscript -e 'blogdown::install_hugo()'
+      - name: Render Book
         run: Rscript -e 'blogdown::build_site()'
       - uses: actions/upload-artifact@v1
         with:
