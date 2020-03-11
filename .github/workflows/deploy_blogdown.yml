@@ -18,6 +18,7 @@ jobs:
       - name: Install rmarkdown
         run: Rscript -e 'install.packages(c("rmarkdown","blogdown"))'
       - name: Render Book
+        run: Rscript -e 'blogdown::install_hugo()'
         run: Rscript -e 'blogdown::build_site()'
       - uses: actions/upload-artifact@v1
         with:
