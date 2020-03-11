@@ -6,10 +6,19 @@
     <description>Recent content in Posts on A Hugo website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Dec 2016 21:49:57 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 11 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/test_blogdown/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>test post</title>
+      <link>/test_blogdown/2020/03/11/test-post/</link>
+      <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/test_blogdown/2020/03/11/test-post/</guid>
+      <description>A new page to test the site build</description>
+    </item>
     
     <item>
       <title>A Plain Markdown Post</title>
