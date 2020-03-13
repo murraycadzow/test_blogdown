@@ -1,7 +1,7 @@
-baseurl = "/test_blogdown/"
+baseurl = "/test_blog/"
 languageCode = "en-us"
 title = "A Hugo website"
-theme = "hugo-lithium"
+theme = "hugo-whisper-theme"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
@@ -21,6 +21,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
     description = "A website built through Hugo and blogdown."
+
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+
 
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.12.0"
