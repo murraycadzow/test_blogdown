@@ -1,4 +1,4 @@
-baseurl = "/test_blog/"
+baseurl = "/test_blogdown/"
 languageCode = "en-us"
 title = "A Hugo website"
 theme = "hugo-whisper-theme"
